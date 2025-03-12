@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zenso 30 天瘦身計畫</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            background-color: #fdf7f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+        .grid img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #d291bc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <section class="section">
+            <h2>👩‍⚕️ 關於我</h2>
+            <figure><img src="https://i.ibb.co/nsXsWgQc/zenso-64.png" alt="自我介紹"></figure>
+        </section>
+
+        <section class="section">
+            <h2>🛍️ 產品介紹</h2>
+            <div class="grid">
+                <img src="https://i.ibb.co/sJMjFdqP/MT-Post-Batch-2-CHN-04-0.jpg" alt="抑制糖分轉換">
+                <p>🍬 <strong>抑制糖分轉換</strong><br>✅ 幫助減少糖分吸收，避免囤積脂肪<br>✅ 維持血糖穩定，減少甜食渴望</p>
+                <img src="https://i.ibb.co/zhwfr42P/MT-Post-Batch-2-CHN-05-0.jpg" alt="排出多餘水分">
+                <p>💦 <strong>排出多餘水分</strong><br>✅ 幫助消除水腫，讓身體更輕盈<br>✅ 天然草本配方，促進新陳代謝</p>
+                <img src="https://i.ibb.co/rfvPSVvh/MT-Post-Batch-2-CHN-06-0.jpg" alt="增加飽腹感">
+                <p>🍽️ <strong>增加飽腹感</strong><br>✅ 控制食慾，減少不必要的熱量攝取<br>✅ 高膳食纖維，促進腸道健康</p>
+                <img src="https://i.ibb.co/MkX9kx7S/MT-Post-Batch-2-CHN-07-0.jpg" alt="阻隔高熱量">
+                <p>🔥 <strong>阻隔高熱量</strong><br>✅ 減少身體對脂肪的吸收<br>✅ 幫助身體更有效率地燃燒熱量</p>
+                <img src="https://i.ibb.co/Xxmyprv1/image.jpg" alt="Zenso 瘦身全方位方案">
+                <p>💖 <strong>Zenso 瘦身全方位方案</strong><br>✅ 綜合調理，從體內開始改善代謝<br>✅ 簡單輕鬆，適合所有忙碌族群</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>💬 成功案例</h2>
+            <figure><img src="https://i.ibb.co/4gTFSm4P/zenso-76-0.png" alt="成功案例1"><figcaption>30 天減 7.5kg，重拾自信！</figcaption></figure>
+            <figure><img src="https://i.ibb.co/8gbygJ5j/zenso-77-0.png" alt="成功案例2"><figcaption>產後瘦 9kg，體態更緊緻！</figcaption></figure>
+            <figure><img src="https://i.ibb.co/ymssw0pD/zenso-78-0.png" alt="成功案例3"><figcaption>久坐上班族也能輕鬆瘦！</figcaption></figure>
+            <figure><img src="https://i.ibb.co/SwWWs7Vz/zenso-80-0.png" alt="成功案例4"><figcaption>無壓力瘦身，健康不復胖！</figcaption></figure>
+        </section>
+
+        <section class="section">
+            <h2>🌟 好評分享</h2>
+            <figure><img src="https://i.ibb.co/QjJXCw7j/image.png" alt="好評1"></figure>
+            <figure><img src="https://i.ibb.co/ZRXWcXjJ/image.png" alt="好評2"></figure>
+        </section>
+
+        <section class="section">
+            <h2>💡 你適合 Zenso 瘦身計畫嗎？</h2>
+            <form>
+                <label>年齡 <input type="number" name="age" required></label>
+                <label>身高 (cm) <input type="number" name="height" required></label>
+                <label>目前體重 (kg) <input type="number" name="weight" required></label>
+                <label>理想體重 (kg) <input type="number" name="goal_weight" required></label>
+
+                <label>📍 你瘦身時遇到的最大困難是什麼？（可多選）</label>
+                <label><input type="checkbox" name="difficulty" value="沒時間運動"> 沒時間運動</label>
+                <label><input type="checkbox" name="difficulty" value="控制不了食慾"> 控制不了食慾</label>
+                <label><input type="checkbox" name="difficulty" value="減肥效果慢，容易放棄"> 減肥效果慢，容易放棄</label>
+                <label><input type="checkbox" name="difficulty" value="生過小孩，肚子瘦不下來"> 生過小孩，肚子瘦不下來</label>
+                <label><input type="checkbox" name="difficulty" value="熬夜、壓力大導致肥胖"> 熬夜、壓力大導致肥胖</label>
+
+                <label>📍 你過去嘗試過哪些瘦身方法？（可多選）</label>
+                <label><input type="checkbox" name="methods" value="節食"> 節食</label>
+                <label><input type="checkbox" name="methods" value="健身運動"> 健身運動</label>
+                <label><input type="checkbox" name="methods" value="瘦身產品"> 瘦身產品（減肥茶/代餐）</label>
+                <label><input type="checkbox" name="methods" value="醫美減脂"> 醫美減脂（抽脂、減脂針）</label>
+                <label><input type="text" name="methods_other" placeholder="其他（請說明）"></label>
+
+                <button type="submit">提交測試</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
